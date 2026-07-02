@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static entry points. In production, generate this dynamically from the catalogue
+  (one <url> per product + per category) so every comparison page is indexable.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>/search?category=Clothing</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Shoes</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Handbags</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Jewellery</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Makeup</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Skincare</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Perfume</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>/search?category=Accessories</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+</urlset>
