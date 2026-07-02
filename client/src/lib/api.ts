@@ -8,7 +8,7 @@ import type {
   Suggestion,
 } from "../types";
 
-const BASE = "/api";
+const BASE = "https://luxe-api-z106.onrender.com/api";
 
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`);
