@@ -17,7 +17,7 @@ export function Alerts() {
   const [results, setResults] = useState<Record<string, CheckResult>>({});
 
   useEffect(() => {
-    document.title = "Price alerts · Luxe";
+    document.title = "Price alerts · Dealista";
     if (alerts.length === 0) return;
     api
       .checkAlerts(alerts.map((a) => ({ productId: a.productId, threshold: a.threshold })))

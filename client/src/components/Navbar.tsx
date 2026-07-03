@@ -35,7 +35,7 @@ export function Navbar() {
             <span className="grid h-9 w-9 place-items-center rounded-2xl bg-gradient-to-br from-blush-400 to-lilac-400 font-display text-lg italic text-white shadow-soft transition-transform group-hover:scale-105">
               L
             </span>
-            <span className="font-display text-2xl tracking-tight text-ink">Luxe</span>
+            <span className="font-display text-2xl tracking-tight text-ink">Dealista</span>
           </Link>
 
           {/* Compact search on inner pages */}

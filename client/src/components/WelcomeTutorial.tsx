@@ -32,7 +32,7 @@ export function WelcomeTutorial() {
   };
 
   return (
-    <Modal open={open} onClose={dismiss} title="Welcome to Luxe 👋">
+    <Modal open={open} onClose={dismiss} title="Welcome to Dealista 👋">
       <div className="mb-4 flex items-center gap-2 rounded-2xl bg-blush-50 px-4 py-3 text-sm text-ink-soft">
         <SparkleIcon className="h-4 w-4 shrink-0 text-blush-500" />
         <span>New here? Here's how to grab any item in 4 quick steps.</span>

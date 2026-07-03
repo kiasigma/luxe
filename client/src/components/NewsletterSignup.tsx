@@ -25,7 +25,7 @@ export function NewsletterSignup() {
 
         {subscribed ? (
           <p className="mx-auto mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-medium text-sage-400 shadow-soft">
-            <CheckIcon className="h-4 w-4" /> You're subscribed — welcome to Luxe.
+            <CheckIcon className="h-4 w-4" /> You're subscribed — welcome to Dealista.
           </p>
         ) : (
           <form

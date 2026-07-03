@@ -41,7 +41,7 @@ export function Footer() {
               <span className="grid h-9 w-9 place-items-center rounded-2xl bg-gradient-to-br from-blush-400 to-lilac-400 font-display text-lg italic text-white">
                 L
               </span>
-              <span className="font-display text-2xl text-ink">Luxe</span>
+              <span className="font-display text-2xl text-ink">Dealista</span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
               The most beautiful way to find the best price on women's fashion &amp;
@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-ink/5 pt-6 text-xs text-ink-muted sm:flex-row">
-          <p>© {new Date().getFullYear()} Luxe. Prices compared from official retailer feeds.</p>
+          <p>© {new Date().getFullYear()} Dealista. Prices compared from official retailer feeds.</p>
           <p>Some links are affiliate links — they never affect the price you pay.</p>
         </div>
       </div>

@@ -23,7 +23,7 @@ export function Wishlist() {
   }, [saved, collections]);
 
   useEffect(() => {
-    document.title = "Wishlist · Luxe";
+    document.title = "Wishlist · Dealista";
     if (allIds.length === 0) {
       setProductMap({});
       setLoading(false);

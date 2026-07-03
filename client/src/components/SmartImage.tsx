@@ -51,7 +51,7 @@ export function SmartImage({ src, alt, className = "", fallbackClass, fallbackSr
             fallbackClass ?? ""
           }`}
         >
-          <span className="font-display text-2xl italic text-ink-muted/50">Luxe</span>
+          <span className="font-display text-2xl italic text-ink-muted/50">Dealista</span>
         </div>
       ) : contain ? (
         <img

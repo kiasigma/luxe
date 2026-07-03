@@ -85,7 +85,7 @@ export function Search() {
 
   const label = q || category || "All products";
   useSeo({
-    title: `${label} — compare prices · Luxe`,
+    title: `${label} — compare prices · Dealista`,
     description: `Compare the best prices on ${label.toLowerCase()} across leading retailers. Filter by brand, colour, size, price and more, then jump straight to the deal.`,
   });
 

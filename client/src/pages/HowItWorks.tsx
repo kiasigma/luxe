@@ -10,8 +10,8 @@ import { SparkleIcon, ChevronRight } from "../components/icons";
  */
 export function HowItWorks() {
   useSeo({
-    title: "How it works — Luxe",
-    description: "Find an item, copy the code, go to the store, paste and enjoy. Here's how to shop with Luxe in four simple steps.",
+    title: "How it works — Dealista",
+    description: "Find an item, copy the code, go to the store, paste and enjoy. Here's how to shop with Dealista in four simple steps.",
   });
 
   return (
@@ -23,7 +23,7 @@ export function HowItWorks() {
         </span>
         <h1 className="heading-display mt-4 text-3xl sm:text-4xl">How it works</h1>
         <p className="mt-3 text-ink-muted">
-          Luxe finds the lowest price for every item — then hands you a code to grab it on the
+          Dealista finds the lowest price for every item — then hands you a code to grab it on the
           store's own site. Four simple steps:
         </p>
       </div>

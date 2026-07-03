@@ -14,7 +14,7 @@ export function Home() {
   const [data, setData] = useState<Discovery | null>(null);
 
   useSeo({
-    title: "Luxe · Compare the best prices on women's fashion & beauty",
+    title: "Dealista · Compare the best prices on women's fashion & beauty",
     description:
       "Instantly compare prices on dresses, handbags, shoes, jewellery, makeup, skincare and perfume across leading retailers. Find the best deal, set price alerts and save your favourites.",
     canonicalPath: "/",

@@ -72,7 +72,7 @@ export function Product() {
   // SEO + structured data (must run before any early return).
   const p = data?.product;
   useSeo({
-    title: p ? `${p.name} — compare ${p.offers.length} prices · Luxe` : "Luxe",
+    title: p ? `${p.name} — compare ${p.offers.length} prices · Dealista` : "Dealista",
     description: p
       ? `Compare ${p.offers.length} retailer prices for the ${p.name}. Best price from ${formatPrice(
           p.lowestPrice,
